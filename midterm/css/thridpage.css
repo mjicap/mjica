@@ -1,0 +1,43 @@
+body {
+    width: auto;
+	height: auto;
+	font-family: "Courier New", Courier;
+    text-align: center;
+    background-image: url(../images/sph.jpg);
+    background-size: 80px 80px;
+    background-repeat: repeat;
+}
+
+div1 {
+    background-color: linen;
+    width: auto;
+    border: none;
+    padding: none;
+    margin: none;
+    text-align: center;
+}
+
+h2 {
+    background-color: white;
+}
+
+p {
+    background-color: white;
+}
+
+a {
+	text-decoration: underline;
+	color: black;
+	padding: 10px;
+    background-color: white
+}
+
+a:hover {
+	background-color: red;
+	color: white;
+}
+
+
+span.help {
+    cursor: help;
+}
