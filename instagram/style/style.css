@@ -1,0 +1,139 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    font-family: Helvetica;
+
+    letter-spacing: .05em;
+}
+
+body {
+  width: 100%;
+  max-width: 900px;
+  min-width: 500px;
+  margin: 0 auto;
+    
+}
+
+
+#header {
+    height: 80px;
+    border-bottom: 1px solid black;
+}
+
+#main-logo {
+    width: 30px;
+    position: absolute;
+    left: 100px;
+    top: 150px; 
+    display: inline-block;
+}
+
+
+.search {
+    display: inline-block;
+    width: 100px;
+    height: 30px; 
+    position: relative;
+    top: -30px;
+    left: 10%;
+    background: white;
+}
+
+
+.search input { 
+    text-indent: 20px;
+    font-size: 13px;
+
+}
+
+#searchBox{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ededed;
+    top: -0px;
+}
+
+
+#loginButtons {
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    top: -20px;
+    left: 40%;
+}
+
+button{
+    font-size: 14px;
+    margin-left:100px;
+    margin-right: 10px;
+    height: 100%;
+    color: #7493e6;
+    border-style: inherit;
+    background: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.signup {
+    color: white;
+    background: #ffffff;
+}
+
+
+#profile {
+    margin-top: 10px;
+    background: #ffffff;
+    width: 100%;
+    line-height: 50px;
+    display: inline-block;
+   
+}
+
+#info {
+    display: inline-block
+}
+
+
+container_12 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 250px;
+    height: 100%;
+}
+
+.photos {
+    width: 100%;
+}
+    
+
+.circle-text {
+    display: table-cell;
+    height: 150px; 
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #ffffff;
+    outline-color: #000000;
+    color: #000000;
+}
+
+
+.list {
+    display: inline;
+    width: 100px;
+    height: 30px; 
+    position: relative;
+    top: -30px;
+    left: 10%;
+    background: white;
+    font-size: 15pt;
+}
+
+.ok {
+    text-align: right;
+    color: #acacac
+}
+
