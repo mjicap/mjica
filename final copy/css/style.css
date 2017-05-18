@@ -1,0 +1,185 @@
+@i *{
+    Margin: 0;
+}
+
+@font-face {
+   font-family: myFont;
+   src: url(../Inknut_Antiqua/InknutAntiqua-Black.ttf);
+   
+}
+
+html, body {
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin-bottom: 20px;
+}
+
+.topMenu {
+	width:100%;
+	position:fixed;
+}
+
+.ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background: rgba(0,0,0,0.4);
+	width:100%;
+	font-family:myFont;
+
+}
+
+.li1 {
+    float: left;
+}
+
+.li1 a {
+    display: block;
+    color: #f7d901;
+    text-align: center;
+    padding: 0.5em 12.9em;
+    text-decoration: none;
+}
+
+.li1 a:hover {
+    background-color: #6d6291;
+}
+
+
+
+ul {
+	font-family:myFont;
+	color:#f7d901;
+	
+    list-style-type: none;
+	z-index:100;
+	position:absolute;
+    margin: relative;
+	margin-top: 5em;
+    padding: 0;
+    width: 200px;
+}
+
+li a {
+    display: block;
+    color: #f7d901;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #6d6291;
+}
+
+.active {
+    color: white;
+}
+
+.nav{
+    
+    position: fixed;
+    width: 100%;
+    height: 20px;
+    background-color: rgba(0,0,0,.5)
+    z-index: 99;
+    text-align: center;
+    
+}
+
+.sect{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.subsection{
+    background-color: bisque
+    
+}
+
+.sectOne{
+    background-image: url(../images/01.jpg);
+/*	z-index:10;*/
+}
+
+.sectTwo{
+    background-image: url(../images/02.jpg)
+}
+
+.sectThree{
+    background-image: url(../images/03.jpg)
+}
+
+.sectFour{
+    background-image: url(../images/04.jpg)
+}
+
+.sectFF{
+    background-image: url(../images/044.jpg)
+}
+
+.sectFive{
+    background-image: url(../images/05.jpg)
+}
+
+.sectSix{
+    background-image: url(../images/06.jpg)
+}
+
+.sectSeven{
+    background-image: url(../images/07.jpg)
+}
+
+.sectEight{
+    background-image: url(../images/08.jpg)
+}
+
+.sectNine{
+    background-image: url(../images/09.jpg)
+}
+
+.subsection{
+    
+}
+
+footer {
+	margin-top: 50px;
+	background-color: #D8E2ED;
+	padding:20px;
+	text-align: center;
+	font-family:myFont;
+}
+
+
+.parallax {
+	background-image: url(../images/01.jpg);
+	perspective: 1px;
+	height: 100;
+}
+
+.pLayer {
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
+
+.pSpeed {
+  transform: translateZ(0);
+}
+
+.circle {
+	background-color:#6d6291;
+	border: 3px #6d6291 solid;
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius:100px;
+	-moz-border-radius: 100px;
+	margin: auto;
+	text-align: center;
+	z-index:200;
+}
